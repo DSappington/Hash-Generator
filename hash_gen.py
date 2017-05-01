@@ -1,8 +1,8 @@
 from hashlib import md5
 
 
-iname = 'wordlist.txt'
-oname = 'data.txt'
+iname = 'data.txt'
+oname = 'hashed.txt'
 
 with open(iname, 'r') as ifile:
     with open(oname, 'w') as ofile:
